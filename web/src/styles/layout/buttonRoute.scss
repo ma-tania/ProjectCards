@@ -1,0 +1,17 @@
+.routeBtn{
+    @include textStyle($fontRoboto, 700, 1rem,  $white);
+    line-height: 2.4;
+    border-radius: 20px;
+    width: 11.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    background-color: $dark-lilac;
+    transform: translateY(-120%);
+    margin: 0;
+    @media all and (min-width: 1024px){
+        @include textStyle($fontRoboto, 700, 1.5rem,  $white);
+        width: 15.4rem;
+    }
+}

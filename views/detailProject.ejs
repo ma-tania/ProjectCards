@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/main.css" />
+    <script src="https://kit.fontawesome.com/66349fc88a.js"crossorigin="anonymous"></script>
+    <title>Detail Project</title>
+</head>
+<body class="body">
+  <div class="header">
+   <a href="/"><img class="arrow" src="../flecha.png" alt="arrow image" /></a> 
+  </div>
+    <img class="cover" src=<%= photo %> alt="cover photo">
+    <div class="div_preview">
+        <article class="preview__autor">
+          <section class="preview__autor--project">
+            <p class="line-word">Personal Project Card</p>
+            <hr class="line" />
+            <h2 class="title"><%= name %></h2>
+            <p class="slogan"><%= slogan %></p>
+            <p class="desc"><%= desc %></p>
+  
+            <p class="technologies">
+                <%= %>
+              <a href="<%= demo %>" target="_blank" rel="noreferrer">
+                <i class="globe fa-solid fa-globe"></i>
+              </a>
+              <a href="<%= repo %>" target="_blank" rel="noreferrer">
+                <i class="github fa-brands fa-github"></i>
+              </a>
+            </p>
+          </section>
+  
+          <figure class="preview__autor--figure">
+            <img class="image" src=<%= image %> alt="image" />
+            <figcaption>
+              <h3 class="job"><%= job %></h3>
+              <h2 class="name"><%= autor %></h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+</body>
+</html>

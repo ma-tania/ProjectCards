@@ -1,0 +1,35 @@
+@mixin centerTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin textStyle($fontFamily, $fontWeight, $fontSize, $color) {
+  font-family: $fontFamily;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  color: $color;
+}
+
+//colores
+
+$greyish-brown: #505050;
+$black-80: rgba(0, 0, 0, 0.8);
+$greyish-brown-88: rgba(62, 62, 62, 0.88);
+$dusk: #403a5f;
+$greyish-brown-two: #575757;
+$dark: #09312c;
+$warm-grey: #909090;
+$white: #ffffff;
+$dark-lilac: #bb1285;
+$white-50: rgba(255, 255, 255, 0.5);
+$black: black;
+$red: rgba(240, 104, 19);
+
+//fonts
+
+$fontMontserrat: 'Montserrat', sans-serif;
+$fontPoppins: 'Poppins', sans-serif;
+$fontCatamaran: 'Catamaran', sans-serif;
+$fontRoboto: 'Roboto', sans-serif;

@@ -1,0 +1,50 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(/fondo.jpg) !important;
+  background-size: cover !important;
+  background-position: 100%;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(to right, #0f0c29 0%, #302b63 100%);
+}
+
+html{
+  cursor: url(../images/cursor.png), auto;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.globe,
+.github {
+  margin: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #bcd1d8;
+  color: #09312c;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.globe:hover {
+  color: deeppink;
+  transform: scale(1.1);
+}
+
+.github:hover {
+  color: deeppink;
+  transform: scale(1.1);
+}
